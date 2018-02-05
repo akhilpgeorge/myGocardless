@@ -1,10 +1,12 @@
 {
 	"defaultSeverity": "error",
-	"extends": [
-		"tslint:recommended"
-	],
+	"extends": ["tslint:recommended"],
 	"jsRules": {},
+	"linterOptions": {
+		"exclude": []
+	},
 	"rules": {
+		"arrow-parens": false,
 		"class-name": true,
 		"comment-format": [true, "check-space"],
 		"eofline": true,
@@ -33,7 +35,8 @@
 		"switch-default": true,
 		"triple-equals": [true, "allow-null-check"],
 		"variable-name": [true, "check-format", "ban-keywords"],
-		"prefer-const": true
+		"prefer-const": true,
+		"object-literal-sort-keys": false
 	},
 	"rulesDirectory": []
 }

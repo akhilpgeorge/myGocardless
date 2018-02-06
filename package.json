@@ -25,7 +25,10 @@
         "url": "https://github.com/akhilpgeorge@gmail.com/https://github.com/akhilpgeorge/myGocardless.git/issues"
     },
     "homepage": "https://github.com/akhilpgeorge@gmail.com/https://github.com/akhilpgeorge/myGocardless.git#readme",
-    "dependencies": {},
+    "dependencies": {
+        "@types/bluebird": "^3.5.20",
+        "@types/request": "^2.47.0"
+    },
     "devDependencies": {
         "@types/chai": "^4.0.1",
         "@types/del": "^3.0.0",
